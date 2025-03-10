@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="counter">0</div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <a href="#home">Portfolio.</a>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#work">Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-menu-btn">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu-links">
+            <a href="#home">Home</a>
+            <a href="#work">Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="mobile-menu-footer">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm</h1>
+            <div class="hero-name-wrapper">
+                <h2 class="hero-name">Dharma Rao</h2>
+            </div>
+            <p>A Full Stack Developer passionate about creating interactive applications and experiences on the web.</p>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="section-header">
+            <h2>Selected Work</h2>
+            <p>A showcase of my best projects</p>
+        </div>
+        <div class="work-grid">
+            <div class="work-item" data-category="Web Development">
+                <div class="work-image">
+                    <img src="https://picsum.photos/800/600?random=1" alt="Project 1">
+                </div>
+                <div class="work-info">
+                    <h3>Project One</h3>
+                    <p>Web Development</p>
+                </div>
+            </div>
+            <div class="work-item" data-category="UI/UX Design">
+                <div class="work-image">
+                    <img src="https://picsum.photos/800/600?random=2" alt="Project 2">
+                </div>
+                <div class="work-info">
+                    <h3>Project Two</h3>
+                    <p>UI/UX Design</p>
+                </div>
+            </div>
+            <div class="work-item" data-category="Mobile App">
+                <div class="work-image">
+                    <img src="https://picsum.photos/800/600?random=3" alt="Project 3">
+                </div>
+                <div class="work-info">
+                    <h3>Project Three</h3>
+                    <p>Mobile App</p>
+                </div>
+            </div>
+            <div class="work-item" data-category="Web Development">
+                <div class="work-image">
+                    <img src="https://picsum.photos/800/600?random=4" alt="Project 4">
+                </div>
+                <div class="work-info">
+                    <h3>Project Four</h3>
+                    <p>Web Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-header">
+            <h2>My Skills</h2>
+            <p>Technologies and tools I work with</p>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="HTML5">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                        <div class="skill-level">95%</div>
+                    </div>
+                    <div class="skill-item" data-skill="CSS3">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                        <div class="skill-level">90%</div>
+                    </div>
+                    <div class="skill-item" data-skill="JavaScript">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <div class="skill-level">85%</div>
+                    </div>
+                    <div class="skill-item" data-skill="React">
+                        <i class="fab fa-react"></i>
+                        <span>React</span>
+                        <div class="skill-level">80%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend Development</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="Node.js">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                        <div class="skill-level">85%</div>
+                    </div>
+                    <div class="skill-item" data-skill="Python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                        <div class="skill-level">80%</div>
+                    </div>
+                    <div class="skill-item" data-skill="PHP">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                        <div class="skill-level">75%</div>
+                    </div>
+                    <div class="skill-item" data-skill="MongoDB">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                        <div class="skill-level">80%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Others</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="Git">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                        <div class="skill-level">90%</div>
+                    </div>
+                    <div class="skill-item" data-skill="Docker">
+                        <i class="fab fa-docker"></i>
+                        <span>Docker</span>
+                        <div class="skill-level">75%</div>
+                    </div>
+                    <div class="skill-item" data-skill="Figma">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                        <div class="skill-level">85%</div>
+                    </div>
+                    <div class="skill-item" data-skill="AWS">
+                        <i class="fab fa-aws"></i>
+                        <span>AWS</span>
+                        <div class="skill-level">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>Featured Projects</h2>
+            <p>Detailed showcase of my best work</p>
+        </div>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://picsum.photos/800/600?random=5" alt="E-commerce Platform">
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>E-commerce Platform</h3>
+                    <p>A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, cart functionality, and payment integration.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                        <span>Stripe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://picsum.photos/800/600?random=6" alt="Task Management App">
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>Task Management App</h3>
+                    <p>A real-time task management application with team collaboration features. Built with React, Firebase, and Material-UI. Includes drag-and-drop functionality and real-time updates.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Firebase</span>
+                        <span>Material-UI</span>
+                        <span>Redux</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://picsum.photos/800/600?random=7" alt="AI Image Generator">
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>AI Image Generator</h3>
+                    <p>An AI-powered image generation platform using OpenAI's DALL-E API. Features include prompt engineering, image variations, and social sharing capabilities.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>OpenAI API</span>
+                        <span>AWS S3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I'm a creative developer with a passion for building beautiful and functional digital experiences. With expertise in both design and development, I bridge the gap between aesthetics and functionality.</p>
+                <div class="skills">
+                    <div class="skill">
+                        <span class="skill-name">Web Development</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">UI/UX Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Mobile Development</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="https://picsum.photos/600/800?random=5" alt="Profile">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2>Get In Touch</h2>
+            <p>Have a question or want to work together?</p>
+            <div class="contact-info">
+                <div class="contact-email">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <div class="email-content">
+                        <h3>Email Me At</h3>
+                        <a href="mailto:contact@yourportfolio.com" class="email-link">contact@yourportfolio.com</a>
+                    </div>
+                </div>
+                <div class="contact-social">
+                    <p>Or connect with me on social media</p>
+                    <div class="social-links">
+                        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>Portfolio.</h3>
+                <p>© 2024 All rights reserved.</p>
+                <div class="datetime">
+                    <div class="time-wrapper">
+                        <span id="current-time">00:00:00</span>
+                        <span class="timezone">IST</span>
+                    </div>
+                    <span id="current-date">January 1, 2024</span>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/framer-motion/dist/framer-motion.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
